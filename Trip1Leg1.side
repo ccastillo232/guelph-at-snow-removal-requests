@@ -7,6 +7,27 @@
     "id": "63dbea15-99f3-4dfa-930c-334a8de44390",
     "name": "Woolwich Westbound",
     "commands": [{
+      "id": "171230ea-8262-41d0-9c7c-4f28f28656cd",
+      "comment": "======================================================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef3d336f-0ab0-4498-ba40-7f4679f604d0",
+      "comment": "===================  LEG 1 - Field Values ===================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e94f4d65-532f-459c-9cfd-c23782973d31",
+      "comment": "=======================================================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "7a85fb0a-2aec-4cda-9474-8be84235c013",
       "comment": "",
       "command": "store",
@@ -70,12 +91,40 @@
       "targets": [],
       "value": "To Street"
     }, {
+      "id": "19ec3a77-ee88-487c-a579-7b5f2f9f3557",
+      "comment": "",
+      "command": "store",
+      "target": "Bike lane is not cleared of snow and ice",
+      "targets": [],
+      "value": "Description of the problem"
+    }, {
       "id": "bbacadae-9d13-4398-866e-ba62167bf5ba",
       "comment": "",
       "command": "store",
-      "target": "Westbound bike lane is not cleared of snow from Norfolk Street to ${To street}.",
+      "target": "No",
       "targets": [],
-      "value": "Description of the problem"
+      "value": "May we contact you"
+    }, {
+      "id": "19509884-a8d3-41bf-8824-9ef253840a3c",
+      "comment": "======================================================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c36c07e0-9b8e-4ec9-863c-b5c3e3c8235f",
+      "comment": "======================  LEG 1 - Start =====================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a65e0694-a939-4b96-9eaf-34e436aa50aa",
+      "comment": "======================================================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
     }, {
       "id": "4450621e-d9ee-49b2-806e-2583c09e2ac5",
       "comment": "",
@@ -328,7 +377,7 @@
       ],
       "value": ""
     }, {
-      "id": "899f58cd-eebb-4683-ba57-03a447e0cdeb",
+      "id": "7771882d-ad8d-42a6-b061-6b2f39e91e03",
       "comment": "",
       "command": "type",
       "target": "id=Q_48226002-4b9d-467a-bbce-f17d26966423_0",
@@ -342,7 +391,28 @@
       ],
       "value": "${Description of the problem}"
     }, {
-      "id": "e87a3f4c-da06-4278-8d1c-d735214d8a9c",
+      "id": "935f664c-7ba6-4c75-801d-fb16bc639324",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=Q_48226002-4b9d-467a-bbce-f17d26966423_0",
+      "targets": [],
+      "value": "${KEY_SPACE}from ${From street} "
+    }, {
+      "id": "899f58cd-eebb-4683-ba57-03a447e0cdeb",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=Q_48226002-4b9d-467a-bbce-f17d26966423_0",
+      "targets": [],
+      "value": "${KEY_SPACE}to ${To Street}."
+    }, {
+      "id": "da92e20c-cc08-45e8-b01b-920aef1eee92",
+      "comment": "",
+      "command": "if",
+      "target": "${May we contact you} === 'Yes'",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5472b018-6bb8-4785-b0c4-fde7cb2193a6",
       "comment": "",
       "command": "click",
       "target": "id=Q_ce67fd7d-e277-47f6-a944-ab822f5105c0_0",
@@ -354,6 +424,34 @@
         ["xpath=//div[@id='C_ce67fd7d-e277-47f6-a944-ab822f5105c0_0']/div/div/fieldset/div/div/div/label/input", "xpath:idRelative"],
         ["xpath=//label/input", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "58332fc0-05ad-42b8-aaef-e453aa4e82fa",
+      "comment": "",
+      "command": "elseIf",
+      "target": "${May we contact you} === 'No'",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e87a3f4c-da06-4278-8d1c-d735214d8a9c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@value='0d220856-3b5c-4206-9228-2fca9cf4e43f']",
+      "targets": [
+        ["id=Q_ce67fd7d-e277-47f6-a944-ab822f5105c0_0", "id"],
+        ["name=Q_ce67fd7d-e277-47f6-a944-ab822f5105c0_0", "name"],
+        ["css=#Q_ce67fd7d-e277-47f6-a944-ab822f5105c0_0", "css:finder"],
+        ["xpath=//input[@id='Q_ce67fd7d-e277-47f6-a944-ab822f5105c0_0']", "xpath:attributes"],
+        ["xpath=//div[@id='C_ce67fd7d-e277-47f6-a944-ab822f5105c0_0']/div/div/fieldset/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7a9fcfd-749f-4d10-8d96-9249e53d0021",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
       "value": ""
     }]
   }],
