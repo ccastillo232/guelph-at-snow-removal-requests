@@ -15,7 +15,7 @@
       "value": ""
     }, {
       "id": "2733ad36-5d38-4dbb-b40a-b62f61eb41e9",
-      "comment": "==================== Form Field Values ====================",
+      "comment": "============ Section 1 - Form Field Values (edit this) ============",
       "command": "",
       "target": "",
       "targets": [],
@@ -28,6 +28,69 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "332c84df-9079-4bb7-be5b-2bc75c7280f2",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07e7d4c0-8f92-4d4b-97be-d91034c7f499",
+      "comment": "================= 1a) Common Field Values ==================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57da5f3e-dac6-4088-8a12-647e5cfaf384",
+      "comment": "",
+      "command": "store",
+      "target": "Max",
+      "targets": [],
+      "value": "First name"
+    }, {
+      "id": "7500aae3-6276-464f-ae0b-9f64de3fa543",
+      "comment": "",
+      "command": "store",
+      "target": "Power",
+      "targets": [],
+      "value": "Last name"
+    }, {
+      "id": "662392fe-e3d9-4205-b546-48817e93d946",
+      "comment": "",
+      "command": "store",
+      "target": "max.power@protonmail.com",
+      "targets": [],
+      "value": "Email"
+    }, {
+      "id": "d6bff849-1bd3-4acb-8f1b-bb47ae17800b",
+      "comment": "",
+      "command": "store",
+      "target": "2268305973",
+      "targets": [],
+      "value": "Main phone"
+    }, {
+      "id": "bfb87494-2cc0-45b2-b27f-4ff30d7cedd1",
+      "comment": "",
+      "command": "store",
+      "target": "999",
+      "targets": [],
+      "value": "Extension"
+    }, {
+      "id": "277c5394-9fa3-4c7b-ba9b-85d67e752cd5",
+      "comment": "",
+      "command": "store",
+      "target": "Bike lane is not cleared of snow and ice",
+      "targets": [],
+      "value": "Description of the problem"
+    }, {
+      "id": "e08a79c0-ca64-47e8-830b-974ea0490a87",
+      "comment": "",
+      "command": "store",
+      "target": "Yes",
+      "targets": [],
+      "value": "May we contact you"
+    }, {
       "id": "582db030-4c54-4bb8-8c8d-1f15ef93c185",
       "comment": "",
       "command": "",
@@ -36,25 +99,25 @@
       "value": ""
     }, {
       "id": "ef3d336f-0ab0-4498-ba40-7f4679f604d0",
-      "comment": "========================= LEG 1  ========================",
+      "comment": "======================= 1b) Trip info  ======================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab2139bc-0937-4ebe-9207-afea685dbf51",
+      "comment": "========================= Leg 1  ========================",
       "command": "",
       "target": "",
       "targets": [],
       "value": ""
     }, {
       "id": "d797712e-f0ce-48b1-bec9-261e43e782f7",
-      "comment": "Street name - Must exactly match a value from Nearest cross street drop list",
+      "comment": "",
       "command": "store",
       "target": "Woolwich Street",
       "targets": [],
       "value": "Street name1"
-    }, {
-      "id": "8a2a59a8-9c9d-4a82-8ca4-af0ec2f99168",
-      "comment": "",
-      "command": "executeScript",
-      "target": "return [\"Woolwich Street\"]",
-      "targets": [],
-      "value": "streetName"
     }, {
       "id": "8b3de9a6-bc7e-4def-b7f8-2f70efb90f00",
       "comment": "",
@@ -63,43 +126,22 @@
       "targets": [],
       "value": "Nearest building number1"
     }, {
-      "id": "38cbfb15-58d0-426f-928a-6bdb647b1cb9",
-      "comment": "",
-      "command": "executeScript",
-      "target": "return [\"\"]",
-      "targets": [],
-      "value": "nearestBuildingNumber"
-    }, {
       "id": "a846980b-0fbc-4e8e-ae32-7c8058587be2",
-      "comment": "From street - Must exactly match a value from the Nearest cross streetdrop list",
+      "comment": "",
       "command": "store",
       "target": "Norfolk Street",
       "targets": [],
       "value": "From street1"
     }, {
-      "id": "b87bbcb2-6ea8-4029-b214-71b55302de78",
-      "comment": "",
-      "command": "executeScript",
-      "target": "return [\"Norfolk Street\"]",
-      "targets": [],
-      "value": "fromStreet"
-    }, {
       "id": "7fd51897-b6f8-47a5-9855-f6b77021afe7",
-      "comment": "To Street - used in the description",
+      "comment": "",
       "command": "store",
       "target": "Speedvale Avenue West",
       "targets": [],
-      "value": "To Street1"
-    }, {
-      "id": "a8b60e0a-752e-40e5-a003-cc8ca152ee60",
-      "comment": "",
-      "command": "executeScript",
-      "target": "return [\"Speedvale Avenue West\"]",
-      "targets": [],
-      "value": "toStreet"
+      "value": "To street1"
     }, {
       "id": "804f0dd8-2fad-47b4-b1e4-d7db6a7453fa",
-      "comment": "========================= LEG 2  ========================",
+      "comment": "========================= Leg 2  ========================",
       "command": "",
       "target": "",
       "targets": [],
@@ -110,14 +152,7 @@
       "command": "store",
       "target": "Paisley Street",
       "targets": [],
-      "value": ""
-    }, {
-      "id": "4fe3255d-eb10-4a84-a23c-fe8de2e00afb",
-      "comment": "",
-      "command": "executeScript",
-      "target": "return ${streetName}.concat([\"Paisley Street\"])",
-      "targets": [],
-      "value": "streetName"
+      "value": "Street name2"
     }, {
       "id": "b4785e65-45e5-4b83-85ff-3fec03b8698b",
       "comment": "",
@@ -126,13 +161,6 @@
       "targets": [],
       "value": "Nearest building number2"
     }, {
-      "id": "a2c246f0-8a26-4d77-9ce0-6032c1283653",
-      "comment": "",
-      "command": "executeScript",
-      "target": "return ${nearestBuildingNumber}.concat([\"\"])",
-      "targets": [],
-      "value": "nearestBuildingNumber"
-    }, {
       "id": "5571fd03-7923-4730-ad35-b75936a1ab52",
       "comment": "",
       "command": "store",
@@ -140,89 +168,12 @@
       "targets": [],
       "value": "From street2"
     }, {
-      "id": "826782dc-ede0-416b-8004-b180c889e997",
-      "comment": "",
-      "command": "executeScript",
-      "target": "return ${fromStreet}.concat([\"Glasgow Street North\"])",
-      "targets": [],
-      "value": "fromStreet"
-    }, {
       "id": "90e1e8ad-5316-4c69-adb5-f1d2fe24abec",
       "comment": "",
       "command": "store",
       "target": "Southampton Street",
       "targets": [],
-      "value": "To Street2"
-    }, {
-      "id": "c975f071-d232-40b0-8850-6df861c30730",
-      "comment": "",
-      "command": "executeScript",
-      "target": "return ${toStreet}.concat([\"Southampton Street\"])",
-      "targets": [],
-      "value": "toStreet"
-    }, {
-      "id": "b1f8af98-8dc8-4dee-84cf-dc8448234689",
-      "comment": "",
-      "command": "",
-      "target": "",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "9d930d9f-6b14-4cc8-99af-81d447890827",
-      "comment": "=================== Common Field Values ===================",
-      "command": "",
-      "target": "",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "7a85fb0a-2aec-4cda-9474-8be84235c013",
-      "comment": "",
-      "command": "store",
-      "target": "Max",
-      "targets": [],
-      "value": "First name"
-    }, {
-      "id": "cc980d61-bbcd-4c41-b74d-c0c402f275bc",
-      "comment": "",
-      "command": "store",
-      "target": "Power",
-      "targets": [],
-      "value": "Last name"
-    }, {
-      "id": "0225f773-c953-4d1b-a6a4-cc40825e4370",
-      "comment": "",
-      "command": "store",
-      "target": "max.power@protonmail.com",
-      "targets": [],
-      "value": "Email"
-    }, {
-      "id": "3e20328f-55dd-4257-9486-23be50d5c6b8",
-      "comment": "",
-      "command": "store",
-      "target": "2268305973",
-      "targets": [],
-      "value": "Main phone"
-    }, {
-      "id": "f0fd02a6-4016-4a38-b59d-a6880df465de",
-      "comment": "",
-      "command": "store",
-      "target": "999",
-      "targets": [],
-      "value": "Extension"
-    }, {
-      "id": "19ec3a77-ee88-487c-a579-7b5f2f9f3557",
-      "comment": "",
-      "command": "store",
-      "target": "Bike lane is not cleared of snow and ice",
-      "targets": [],
-      "value": "Description of the problem"
-    }, {
-      "id": "bbacadae-9d13-4398-866e-ba62167bf5ba",
-      "comment": "",
-      "command": "store",
-      "target": "Yes",
-      "targets": [],
-      "value": "May we contact you"
+      "value": "To street2"
     }, {
       "id": "61df70d3-6f22-49d5-8b0f-2514feec63b5",
       "comment": "",
@@ -239,7 +190,7 @@
       "value": ""
     }, {
       "id": "c36c07e0-9b8e-4ec9-863c-b5c3e3c8235f",
-      "comment": "======================  LEG 1 - Start =====================",
+      "comment": "===========  Section 2 - Autofill Program (Do not edit) ===========",
       "command": "",
       "target": "",
       "targets": [],
@@ -252,6 +203,62 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "14f96ac1-e113-4c5a-b567-c4248a94cf85",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20d8b194-6140-46c1-8958-6298e8123954",
+      "comment": "================= 2a) Initialize the variables  =================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5112e0eb-229c-42ef-b5e0-faddfd5ef364",
+      "comment": "Populate the arrays",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68a26c9c-5813-45a0-9843-94007a20b2af",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return [${Street name1}, ${Street name2}]",
+      "targets": [],
+      "value": "streetName"
+    }, {
+      "id": "a2c246f0-8a26-4d77-9ce0-6032c1283653",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return [${Nearest building number1}, ${Nearest building number2}]",
+      "targets": [],
+      "value": "nearestBuildingNumber"
+    }, {
+      "id": "8c590cbb-a2c2-41d4-a486-063d8c8657f5",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return [${From street1},${From street2}]",
+      "targets": [],
+      "value": "fromStreet"
+    }, {
+      "id": "b99538fe-7719-4702-93c1-aeafd5c342c6",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return [${To street1},${To street2}]",
+      "targets": [],
+      "value": "toStreet"
+    }, {
+      "id": "bc6014c2-3ce7-40a1-a8a5-68a0dbdefd26",
+      "comment": "Initialize the counter",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "abafb91a-264b-4b61-8e94-a6be87694670",
       "comment": "",
       "command": "executeScript",
@@ -259,10 +266,24 @@
       "targets": [],
       "value": "times"
     }, {
+      "id": "77c0a610-f01b-4b59-bcd7-e497731a8163",
+      "comment": "================= 2b) Execute the program  =================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "142b2936-f046-462e-925c-494b84542242",
       "comment": "",
       "command": "times",
       "target": "2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32c5d3cd-bc41-47fb-824e-6446836a57bd",
+      "comment": "Resolve variables -  values from arrays need to be put in a new variable to be output correctly",
+      "command": "",
+      "target": "",
       "targets": [],
       "value": ""
     }, {
@@ -300,6 +321,13 @@
       "target": "return ${toStreet}[${times}]",
       "targets": [],
       "value": "curToStreet"
+    }, {
+      "id": "486eb131-2d7c-4644-bdad-ab251f7b9399",
+      "comment": "Now work the widgets!",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
     }, {
       "id": "4450621e-d9ee-49b2-806e-2583c09e2ac5",
       "comment": "",
