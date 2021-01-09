@@ -140,41 +140,6 @@
       "targets": [],
       "value": "To street1"
     }, {
-      "id": "804f0dd8-2fad-47b4-b1e4-d7db6a7453fa",
-      "comment": "========================= Leg 2  ========================",
-      "command": "",
-      "target": "",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "afb4cda0-e837-495e-bfd0-06619b04c049",
-      "comment": "",
-      "command": "store",
-      "target": "Paisley Street",
-      "targets": [],
-      "value": "Street name2"
-    }, {
-      "id": "b4785e65-45e5-4b83-85ff-3fec03b8698b",
-      "comment": "",
-      "command": "store",
-      "target": "",
-      "targets": [],
-      "value": "Nearest building number2"
-    }, {
-      "id": "5571fd03-7923-4730-ad35-b75936a1ab52",
-      "comment": "",
-      "command": "store",
-      "target": "Glasgow Street North",
-      "targets": [],
-      "value": "From street2"
-    }, {
-      "id": "90e1e8ad-5316-4c69-adb5-f1d2fe24abec",
-      "comment": "",
-      "command": "store",
-      "target": "Southampton Street",
-      "targets": [],
-      "value": "To street2"
-    }, {
       "id": "61df70d3-6f22-49d5-8b0f-2514feec63b5",
       "comment": "",
       "command": "",
@@ -227,28 +192,28 @@
       "id": "68a26c9c-5813-45a0-9843-94007a20b2af",
       "comment": "",
       "command": "executeScript",
-      "target": "return [${Street name1}, ${Street name2}]",
+      "target": "return [${Street name1}]",
       "targets": [],
       "value": "streetName"
     }, {
       "id": "a2c246f0-8a26-4d77-9ce0-6032c1283653",
       "comment": "",
       "command": "executeScript",
-      "target": "return [${Nearest building number1}, ${Nearest building number2}]",
+      "target": "return [${Nearest building number1}]",
       "targets": [],
       "value": "nearestBuildingNumber"
     }, {
       "id": "8c590cbb-a2c2-41d4-a486-063d8c8657f5",
       "comment": "",
       "command": "executeScript",
-      "target": "return [${From street1},${From street2}]",
+      "target": "return [${From street1}]",
       "targets": [],
       "value": "fromStreet"
     }, {
       "id": "b99538fe-7719-4702-93c1-aeafd5c342c6",
       "comment": "",
       "command": "executeScript",
-      "target": "return [${To street1},${To street2}]",
+      "target": "return [${To street1}]",
       "targets": [],
       "value": "toStreet"
     }, {
@@ -276,7 +241,7 @@
       "id": "142b2936-f046-462e-925c-494b84542242",
       "comment": "",
       "command": "times",
-      "target": "2",
+      "target": "1",
       "targets": [],
       "value": ""
     }, {

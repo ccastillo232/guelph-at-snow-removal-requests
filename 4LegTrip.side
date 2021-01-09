@@ -175,6 +175,76 @@
       "targets": [],
       "value": "To street2"
     }, {
+      "id": "1e73816f-beb4-4408-8ea3-9047c69bfa8a",
+      "comment": "========================= Leg 3  ========================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfa3f288-f704-4f52-b4c3-9aa077e2d612",
+      "comment": "",
+      "command": "store",
+      "target": "Speedvale Avenue East",
+      "targets": [],
+      "value": "Street name3"
+    }, {
+      "id": "317a8d30-48b7-4b8c-854b-8def94572790",
+      "comment": "",
+      "command": "store",
+      "target": "",
+      "targets": [],
+      "value": "Nearest building number3"
+    }, {
+      "id": "f1b47679-2774-44aa-8261-b6d726987c9e",
+      "comment": "",
+      "command": "store",
+      "target": "Manhattan Court",
+      "targets": [],
+      "value": "From street3"
+    }, {
+      "id": "03934c6b-9c01-4685-974c-83428f6009fd",
+      "comment": "",
+      "command": "store",
+      "target": "Victoria Road North",
+      "targets": [],
+      "value": "To street3"
+    }, {
+      "id": "75420614-b9d0-413d-ac83-b5280233ebc1",
+      "comment": "========================= Leg 4  ========================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4b195b0-1bdf-4215-8081-70bb67a03360",
+      "comment": "",
+      "command": "store",
+      "target": "Victoria Road North",
+      "targets": [],
+      "value": "Street name4"
+    }, {
+      "id": "1f1a5e88-ba5f-41d4-8551-00d8471d3c33",
+      "comment": "",
+      "command": "store",
+      "target": "",
+      "targets": [],
+      "value": "Nearest building number4"
+    }, {
+      "id": "7a319d1f-2896-41cf-b17b-bc5e29ba9e4d",
+      "comment": "",
+      "command": "store",
+      "target": "Speedvale Avenue East",
+      "targets": [],
+      "value": "From street4"
+    }, {
+      "id": "887491e8-f99e-491f-b40a-b83276ffd5af",
+      "comment": "",
+      "command": "store",
+      "target": "Hadati Road",
+      "targets": [],
+      "value": "To street4"
+    }, {
       "id": "61df70d3-6f22-49d5-8b0f-2514feec63b5",
       "comment": "",
       "command": "",
@@ -227,28 +297,28 @@
       "id": "68a26c9c-5813-45a0-9843-94007a20b2af",
       "comment": "",
       "command": "executeScript",
-      "target": "return [${Street name1}, ${Street name2}]",
+      "target": "return [${Street name1}, ${Street name2}, ${Street name3}, ${Street name4}]",
       "targets": [],
       "value": "streetName"
     }, {
       "id": "a2c246f0-8a26-4d77-9ce0-6032c1283653",
       "comment": "",
       "command": "executeScript",
-      "target": "return [${Nearest building number1}, ${Nearest building number2}]",
+      "target": "return [${Nearest building number1}, ${Nearest building number2}, ${Nearest building number3}, ${Nearest building number4}]",
       "targets": [],
       "value": "nearestBuildingNumber"
     }, {
       "id": "8c590cbb-a2c2-41d4-a486-063d8c8657f5",
       "comment": "",
       "command": "executeScript",
-      "target": "return [${From street1},${From street2}]",
+      "target": "return [${From street1},${From street2},${From street3},${From street4}]",
       "targets": [],
       "value": "fromStreet"
     }, {
       "id": "b99538fe-7719-4702-93c1-aeafd5c342c6",
       "comment": "",
       "command": "executeScript",
-      "target": "return [${To street1},${To street2}]",
+      "target": "return [${To street1},${To street2},${To street3},${To street4}]",
       "targets": [],
       "value": "toStreet"
     }, {
@@ -276,7 +346,7 @@
       "id": "142b2936-f046-462e-925c-494b84542242",
       "comment": "",
       "command": "times",
-      "target": "2",
+      "target": "4",
       "targets": [],
       "value": ""
     }, {
