@@ -1,0 +1,730 @@
+{
+  "id": "fbf24cd4-0012-4b65-b33c-ec6b2158f41a",
+  "version": "2.0",
+  "name": "WinterMaintenance",
+  "url": "https://forms.guelph.ca",
+  "tests": [{
+    "id": "63dbea15-99f3-4dfa-930c-334a8de44390",
+    "name": "Leg 1",
+    "commands": [{
+      "id": "171230ea-8262-41d0-9c7c-4f28f28656cd",
+      "comment": "=======================================================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2733ad36-5d38-4dbb-b40a-b62f61eb41e9",
+      "comment": "============ Section 1 - Form Field Values (edit this) ============",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e94f4d65-532f-459c-9cfd-c23782973d31",
+      "comment": "=======================================================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "332c84df-9079-4bb7-be5b-2bc75c7280f2",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07e7d4c0-8f92-4d4b-97be-d91034c7f499",
+      "comment": "================= 1a) Common Field Values ==================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57da5f3e-dac6-4088-8a12-647e5cfaf384",
+      "comment": "",
+      "command": "store",
+      "target": "Max",
+      "targets": [],
+      "value": "First name"
+    }, {
+      "id": "7500aae3-6276-464f-ae0b-9f64de3fa543",
+      "comment": "",
+      "command": "store",
+      "target": "Power",
+      "targets": [],
+      "value": "Last name"
+    }, {
+      "id": "662392fe-e3d9-4205-b546-48817e93d946",
+      "comment": "",
+      "command": "store",
+      "target": "max.power@protonmail.com",
+      "targets": [],
+      "value": "Email"
+    }, {
+      "id": "d6bff849-1bd3-4acb-8f1b-bb47ae17800b",
+      "comment": "",
+      "command": "store",
+      "target": "2268305973",
+      "targets": [],
+      "value": "Main phone"
+    }, {
+      "id": "bfb87494-2cc0-45b2-b27f-4ff30d7cedd1",
+      "comment": "",
+      "command": "store",
+      "target": "999",
+      "targets": [],
+      "value": "Extension"
+    }, {
+      "id": "277c5394-9fa3-4c7b-ba9b-85d67e752cd5",
+      "comment": "",
+      "command": "store",
+      "target": "Bus stop waiting area is not clear of snow and ice",
+      "targets": [],
+      "value": "Description of the problem"
+    }, {
+      "id": "e08a79c0-ca64-47e8-830b-974ea0490a87",
+      "comment": "",
+      "command": "store",
+      "target": "Yes",
+      "targets": [],
+      "value": "May we contact you"
+    }, {
+      "id": "582db030-4c54-4bb8-8c8d-1f15ef93c185",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef3d336f-0ab0-4498-ba40-7f4679f604d0",
+      "comment": "==================== 1b) Bus stop info  =====================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab2139bc-0937-4ebe-9207-afea685dbf51",
+      "comment": "========================= Stop 1  ========================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d797712e-f0ce-48b1-bec9-261e43e782f7",
+      "comment": "",
+      "command": "store",
+      "target": "Woolwich Street",
+      "targets": [],
+      "value": "Street name1"
+    }, {
+      "id": "8b3de9a6-bc7e-4def-b7f8-2f70efb90f00",
+      "comment": "",
+      "command": "store",
+      "target": "",
+      "targets": [],
+      "value": "Nearest building number1"
+    }, {
+      "id": "a846980b-0fbc-4e8e-ae32-7c8058587be2",
+      "comment": "",
+      "command": "store",
+      "target": "Norfolk Street",
+      "targets": [],
+      "value": "Nearest cross street1"
+    }, {
+      "id": "7fd51897-b6f8-47a5-9855-f6b77021afe7",
+      "comment": "",
+      "command": "store",
+      "target": "123",
+      "targets": [],
+      "value": "Bus stop number1"
+    }, {
+      "id": "61df70d3-6f22-49d5-8b0f-2514feec63b5",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab2139bc-0937-4ebe-9207-afea685dbf51",
+      "comment": "========================= Stop 2  ========================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d797712e-f0ce-48b1-bec9-261e43e782f7",
+      "comment": "",
+      "command": "store",
+      "target": "Speedvale Avenue West",
+      "targets": [],
+      "value": "Street name2"
+    }, {
+      "id": "8b3de9a6-bc7e-4def-b7f8-2f70efb90f00",
+      "comment": "",
+      "command": "store",
+      "target": "",
+      "targets": [],
+      "value": "Nearest building number2"
+    }, {
+      "id": "a846980b-0fbc-4e8e-ae32-7c8058587be2",
+      "comment": "",
+      "command": "store",
+      "target": "Woolwich Street",
+      "targets": [],
+      "value": "Nearest cross street2"
+    }, {
+      "id": "7fd51897-b6f8-47a5-9855-f6b77021afe7",
+      "comment": "",
+      "command": "store",
+      "target": "456",
+      "targets": [],
+      "value": "Bus stop number2"
+    }, {
+      "id": "61df70d3-6f22-49d5-8b0f-2514feec63b5",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19509884-a8d3-41bf-8824-9ef253840a3c",
+      "comment": "======================================================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c36c07e0-9b8e-4ec9-863c-b5c3e3c8235f",
+      "comment": "===========  Section 2 - Autofill Program (Do not edit) ===========",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a65e0694-a939-4b96-9eaf-34e436aa50aa",
+      "comment": "======================================================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14f96ac1-e113-4c5a-b567-c4248a94cf85",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20d8b194-6140-46c1-8958-6298e8123954",
+      "comment": "================= 2a) Initialize the variables  =================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5112e0eb-229c-42ef-b5e0-faddfd5ef364",
+      "comment": "Populate the arrays",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68a26c9c-5813-45a0-9843-94007a20b2af",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return [${Street name1},${Street name2}]",
+      "targets": [],
+      "value": "streetName"
+    }, {
+      "id": "a2c246f0-8a26-4d77-9ce0-6032c1283653",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return [${Nearest building number1},${Nearest building number2}]",
+      "targets": [],
+      "value": "nearestBuildingNumber"
+    }, {
+      "id": "8c590cbb-a2c2-41d4-a486-063d8c8657f5",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return [${Nearest cross street1},${Nearest cross street2}]",
+      "targets": [],
+      "value": "crossStreet"
+    }, {
+      "id": "b99538fe-7719-4702-93c1-aeafd5c342c6",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return [${Bus stop number1},${Bus stop number2}]",
+      "targets": [],
+      "value": "busStopNo"
+    }, {
+      "id": "bc6014c2-3ce7-40a1-a8a5-68a0dbdefd26",
+      "comment": "Initialize the counter",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abafb91a-264b-4b61-8e94-a6be87694670",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return -1",
+      "targets": [],
+      "value": "times"
+    }, {
+      "id": "77c0a610-f01b-4b59-bcd7-e497731a8163",
+      "comment": "================= 2b) Execute the program  =================",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "142b2936-f046-462e-925c-494b84542242",
+      "comment": "",
+      "command": "times",
+      "target": "2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32c5d3cd-bc41-47fb-824e-6446836a57bd",
+      "comment": "Resolve variables -  values from arrays need to be put in a new variable to be output correctly",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03a34aaf-b546-4393-9b93-593dcd6aa102",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${times}+1",
+      "targets": [],
+      "value": "times"
+    }, {
+      "id": "69f58691-84a8-431e-93e8-31b75363032e",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${streetName}[${times}]",
+      "targets": [],
+      "value": "curStreetName"
+    }, {
+      "id": "8f99548d-d385-42bf-be62-f9a0cf8ff0b0",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${nearestBuildingNumber}[${times}]",
+      "targets": [],
+      "value": "curNearestBuildingNumber"
+    }, {
+      "id": "fd3f791a-daad-4f96-8d1f-8505582b5e61",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${crossStreet}[${times}]",
+      "targets": [],
+      "value": "curCrossStreet"
+    }, {
+      "id": "5298163d-567e-4952-8cee-3b8027142cb8",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${busStopNo}[${times}]",
+      "targets": [],
+      "value": "curBusStopNo"
+    }, {
+      "id": "486eb131-2d7c-4644-bdad-ab251f7b9399",
+      "comment": "Now work the widgets!",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e4b5155-9ac2-4124-982a-584f22544885",
+      "comment": "",
+      "command": "if",
+      "target": "${times} === 0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4450621e-d9ee-49b2-806e-2583c09e2ac5",
+      "comment": "",
+      "command": "open",
+      "target": "/Operations/Snow-removal-roads",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37f6ad9e-df6b-45eb-8170-328c27d3b782",
+      "comment": "",
+      "command": "else",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "695164ea-1892-4a50-8a0a-deb53246d832",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.open(\"https://forms.guelph.ca/Operations/Snow-removal-roads\")",
+      "targets": [],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "tab2",
+      "windowTimeout": 2000
+    }, {
+      "id": "0bdbf5d3-0812-47c7-b98e-108de9dc4966",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${tab2}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b8604c8-c45a-45aa-9c39-118018e7782b",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f0acf5f-7cfc-43b5-b3b5-d5720f71e63b",
+      "comment": "",
+      "command": "click",
+      "target": "id=Q_d218afb1-5321-4c88-bfa2-5853eae0e4f1_0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "593c4fd5-d4be-4999-9bad-51b409113450",
+      "comment": "",
+      "command": "type",
+      "target": "id=Q_d218afb1-5321-4c88-bfa2-5853eae0e4f1_0",
+      "targets": [
+        ["id=Q_d218afb1-5321-4c88-bfa2-5853eae0e4f1_0", "id"],
+        ["name=Q_d218afb1-5321-4c88-bfa2-5853eae0e4f1_0", "name"],
+        ["css=#Q_d218afb1-5321-4c88-bfa2-5853eae0e4f1_0", "css:finder"],
+        ["xpath=//input[@id='Q_d218afb1-5321-4c88-bfa2-5853eae0e4f1_0']", "xpath:attributes"],
+        ["xpath=//div[@id='C_d218afb1-5321-4c88-bfa2-5853eae0e4f1_0']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${First name}"
+    }, {
+      "id": "852a021e-52b6-4d7d-b0b1-079d468e169c",
+      "comment": "",
+      "command": "click",
+      "target": "id=Q_e2daaf08-d760-4698-87c5-03557ccf7630_0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f6f565a-be3f-4431-b191-d013854d50ed",
+      "comment": "",
+      "command": "type",
+      "target": "id=Q_e2daaf08-d760-4698-87c5-03557ccf7630_0",
+      "targets": [
+        ["id=Q_e2daaf08-d760-4698-87c5-03557ccf7630_0", "id"],
+        ["name=Q_e2daaf08-d760-4698-87c5-03557ccf7630_0", "name"],
+        ["css=#Q_e2daaf08-d760-4698-87c5-03557ccf7630_0", "css:finder"],
+        ["xpath=//input[@id='Q_e2daaf08-d760-4698-87c5-03557ccf7630_0']", "xpath:attributes"],
+        ["xpath=//div[@id='C_e2daaf08-d760-4698-87c5-03557ccf7630_0']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${Last name}"
+    }, {
+      "id": "a9723238-1ab7-4a95-bfe6-82357f51abfc",
+      "comment": "",
+      "command": "click",
+      "target": "id=Q_a3944bba-9217-4b9c-9177-8370adeb109b_0",
+      "targets": [
+        ["id=Q_a3944bba-9217-4b9c-9177-8370adeb109b_0", "id"],
+        ["name=Q_a3944bba-9217-4b9c-9177-8370adeb109b_0", "name"],
+        ["css=#Q_a3944bba-9217-4b9c-9177-8370adeb109b_0", "css:finder"],
+        ["xpath=//input[@id='Q_a3944bba-9217-4b9c-9177-8370adeb109b_0']", "xpath:attributes"],
+        ["xpath=//div[@id='C_a3944bba-9217-4b9c-9177-8370adeb109b_0']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f58c0a66-36fe-4050-886e-5c7e035c43f3",
+      "comment": "",
+      "command": "type",
+      "target": "id=Q_a3944bba-9217-4b9c-9177-8370adeb109b_0",
+      "targets": [
+        ["id=Q_a3944bba-9217-4b9c-9177-8370adeb109b_0", "id"],
+        ["name=Q_a3944bba-9217-4b9c-9177-8370adeb109b_0", "name"],
+        ["css=#Q_a3944bba-9217-4b9c-9177-8370adeb109b_0", "css:finder"],
+        ["xpath=//input[@id='Q_a3944bba-9217-4b9c-9177-8370adeb109b_0']", "xpath:attributes"],
+        ["xpath=//div[@id='C_a3944bba-9217-4b9c-9177-8370adeb109b_0']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${Email}"
+    }, {
+      "id": "6c2ac106-d918-447d-8929-8526db9ff289",
+      "comment": "",
+      "command": "click",
+      "target": "id=Q_0beacae9-d3f9-4a06-9fe1-d5bfff40dd3d_0",
+      "targets": [
+        ["id=Q_0beacae9-d3f9-4a06-9fe1-d5bfff40dd3d_0", "id"],
+        ["name=Q_0beacae9-d3f9-4a06-9fe1-d5bfff40dd3d_0", "name"],
+        ["css=#Q_0beacae9-d3f9-4a06-9fe1-d5bfff40dd3d_0", "css:finder"],
+        ["xpath=//input[@id='Q_0beacae9-d3f9-4a06-9fe1-d5bfff40dd3d_0']", "xpath:attributes"],
+        ["xpath=//div[@id='C_0beacae9-d3f9-4a06-9fe1-d5bfff40dd3d_0']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "563250f8-1d8c-49b7-b4ac-cb5ea986ea57",
+      "comment": "",
+      "command": "type",
+      "target": "id=Q_0beacae9-d3f9-4a06-9fe1-d5bfff40dd3d_0",
+      "targets": [],
+      "value": "${Main phone}"
+    }, {
+      "id": "384a4fa5-a5f0-4b20-b411-84de1c832c82",
+      "comment": "",
+      "command": "click",
+      "target": "id=Q_04f1b18e-f137-48af-921b-158f9e79de92_0",
+      "targets": [
+        ["id=Q_04f1b18e-f137-48af-921b-158f9e79de92_0", "id"],
+        ["name=Q_04f1b18e-f137-48af-921b-158f9e79de92_0", "name"],
+        ["css=#Q_04f1b18e-f137-48af-921b-158f9e79de92_0", "css:finder"],
+        ["xpath=//input[@id='Q_04f1b18e-f137-48af-921b-158f9e79de92_0']", "xpath:attributes"],
+        ["xpath=//div[@id='C_04f1b18e-f137-48af-921b-158f9e79de92_0']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a95d2171-f91a-431d-aae2-3014f6eed96a",
+      "comment": "",
+      "command": "type",
+      "target": "id=Q_04f1b18e-f137-48af-921b-158f9e79de92_0",
+      "targets": [
+        ["id=Q_04f1b18e-f137-48af-921b-158f9e79de92_0", "id"],
+        ["name=Q_04f1b18e-f137-48af-921b-158f9e79de92_0", "name"],
+        ["css=#Q_04f1b18e-f137-48af-921b-158f9e79de92_0", "css:finder"],
+        ["xpath=//input[@id='Q_04f1b18e-f137-48af-921b-158f9e79de92_0']", "xpath:attributes"],
+        ["xpath=//div[@id='C_04f1b18e-f137-48af-921b-158f9e79de92_0']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${Extension}"
+    }, {
+      "id": "6ce88d5e-157b-42ad-88e2-f22200bb4d9d",
+      "comment": "",
+      "command": "click",
+      "target": "id=select2-Q_184607bd-acfe-4aa1-b8db-18288dbd68bc_0-container",
+      "targets": [
+        ["id=select2-Q_184607bd-acfe-4aa1-b8db-18288dbd68bc_0-container", "id"],
+        ["css=#select2-Q_184607bd-acfe-4aa1-b8db-18288dbd68bc_0-container", "css:finder"],
+        ["xpath=//span[@id='select2-Q_184607bd-acfe-4aa1-b8db-18288dbd68bc_0-container']", "xpath:attributes"],
+        ["xpath=//div[@id='C_184607bd-acfe-4aa1-b8db-18288dbd68bc_0']/div/div/div/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e57e52fd-59ba-4ce2-bc3e-3d420d3129eb",
+      "comment": "",
+      "command": "type",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=(//input[@type='text'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='P_184607bd-acfe-4aa1-b8db-18288dbd68bc_0']/span/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "${curStreetName}"
+    }, {
+      "id": "0365a328-9177-45a1-96ac-e381789b193b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li[.='${curStreetName}']",
+      "targets": [
+        ["id=main", "id"],
+        ["css=#main", "css:finder"],
+        ["xpath=//div[@id='main']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div", "xpath:idRelative"],
+        ["xpath=//body/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b789b86f-2ffa-457d-b2d7-d64ec4ba77ca",
+      "comment": "",
+      "command": "click",
+      "target": "id=Q_fe1faceb-c750-4393-953f-f7c860f520de_0",
+      "targets": [
+        ["id=Q_fe1faceb-c750-4393-953f-f7c860f520de_0", "id"],
+        ["name=Q_fe1faceb-c750-4393-953f-f7c860f520de_0", "name"],
+        ["css=#Q_fe1faceb-c750-4393-953f-f7c860f520de_0", "css:finder"],
+        ["xpath=//input[@id='Q_fe1faceb-c750-4393-953f-f7c860f520de_0']", "xpath:attributes"],
+        ["xpath=//div[@id='C_fe1faceb-c750-4393-953f-f7c860f520de_0']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90588121-4c22-4073-ab6c-13c0bf463e17",
+      "comment": "",
+      "command": "type",
+      "target": "id=Q_fe1faceb-c750-4393-953f-f7c860f520de_0",
+      "targets": [
+        ["id=Q_fe1faceb-c750-4393-953f-f7c860f520de_0", "id"],
+        ["name=Q_fe1faceb-c750-4393-953f-f7c860f520de_0", "name"],
+        ["css=#Q_fe1faceb-c750-4393-953f-f7c860f520de_0", "css:finder"],
+        ["xpath=//input[@id='Q_fe1faceb-c750-4393-953f-f7c860f520de_0']", "xpath:attributes"],
+        ["xpath=//div[@id='C_fe1faceb-c750-4393-953f-f7c860f520de_0']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${curNearestBuildingNumber}"
+    }, {
+      "id": "6ad48473-4a7a-4049-8d12-61542d514d1c",
+      "comment": "",
+      "command": "click",
+      "target": "id=select2-Q_49e2700d-b7ca-4c0f-8b41-ad8f8619f812_0-container",
+      "targets": [
+        ["id=select2-Q_49e2700d-b7ca-4c0f-8b41-ad8f8619f812_0-container", "id"],
+        ["css=#select2-Q_49e2700d-b7ca-4c0f-8b41-ad8f8619f812_0-container", "css:finder"],
+        ["xpath=//span[@id='select2-Q_49e2700d-b7ca-4c0f-8b41-ad8f8619f812_0-container']", "xpath:attributes"],
+        ["xpath=//div[@id='C_49e2700d-b7ca-4c0f-8b41-ad8f8619f812_0']/div/div/div/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div/div/div/span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f0af106-16e6-4179-9c5f-68989747b886",
+      "comment": "",
+      "command": "type",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=(//input[@type='text'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='P_49e2700d-b7ca-4c0f-8b41-ad8f8619f812_0']/span/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "${curCrossStreet}"
+    }, {
+      "id": "005666ac-03b9-4de7-808b-3e5471c1add3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li[.='${curCrossStreet}']",
+      "targets": [
+        ["id=main", "id"],
+        ["css=#main", "css:finder"],
+        ["xpath=//div[@id='main']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div", "xpath:idRelative"],
+        ["xpath=//body/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddcbbb9e-8edb-4ed0-9536-fffcc15bd34a",
+      "comment": "",
+      "command": "click",
+      "target": "id=Q_48226002-4b9d-467a-bbce-f17d26966423_0",
+      "targets": [
+        ["id=Q_48226002-4b9d-467a-bbce-f17d26966423_0", "id"],
+        ["name=Q_48226002-4b9d-467a-bbce-f17d26966423_0", "name"],
+        ["css=#Q_48226002-4b9d-467a-bbce-f17d26966423_0", "css:finder"],
+        ["xpath=//textarea[@id='Q_48226002-4b9d-467a-bbce-f17d26966423_0']", "xpath:attributes"],
+        ["xpath=//div[@id='C_48226002-4b9d-467a-bbce-f17d26966423_0']/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7771882d-ad8d-42a6-b061-6b2f39e91e03",
+      "comment": "",
+      "command": "type",
+      "target": "id=Q_48226002-4b9d-467a-bbce-f17d26966423_0",
+      "targets": [
+        ["id=Q_48226002-4b9d-467a-bbce-f17d26966423_0", "id"],
+        ["name=Q_48226002-4b9d-467a-bbce-f17d26966423_0", "name"],
+        ["css=#Q_48226002-4b9d-467a-bbce-f17d26966423_0", "css:finder"],
+        ["xpath=//textarea[@id='Q_48226002-4b9d-467a-bbce-f17d26966423_0']", "xpath:attributes"],
+        ["xpath=//div[@id='C_48226002-4b9d-467a-bbce-f17d26966423_0']/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "${Description of the problem}"
+    }, {
+      "id": "935f664c-7ba6-4c75-801d-fb16bc639324",
+      "comment": "",
+      "command": "if",
+      "target": "${curBusStopNo} !== ''",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "899f58cd-eebb-4683-ba57-03a447e0cdeb",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=Q_48226002-4b9d-467a-bbce-f17d26966423_0",
+      "targets": [],
+      "value": "${KEY_SPACE}at bus stop #${curBusStopNo}."
+    }, {
+      "id": "a3d0409b-a168-40e0-8e7b-7aac92c4a856",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da92e20c-cc08-45e8-b01b-920aef1eee92",
+      "comment": "",
+      "command": "if",
+      "target": "${May we contact you} === 'Yes'",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5472b018-6bb8-4785-b0c4-fde7cb2193a6",
+      "comment": "",
+      "command": "click",
+      "target": "id=Q_ce67fd7d-e277-47f6-a944-ab822f5105c0_0",
+      "targets": [
+        ["id=Q_ce67fd7d-e277-47f6-a944-ab822f5105c0_0", "id"],
+        ["name=Q_ce67fd7d-e277-47f6-a944-ab822f5105c0_0", "name"],
+        ["css=#Q_ce67fd7d-e277-47f6-a944-ab822f5105c0_0", "css:finder"],
+        ["xpath=//input[@id='Q_ce67fd7d-e277-47f6-a944-ab822f5105c0_0']", "xpath:attributes"],
+        ["xpath=//div[@id='C_ce67fd7d-e277-47f6-a944-ab822f5105c0_0']/div/div/fieldset/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58332fc0-05ad-42b8-aaef-e453aa4e82fa",
+      "comment": "",
+      "command": "elseIf",
+      "target": "${May we contact you} === 'No'",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e87a3f4c-da06-4278-8d1c-d735214d8a9c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@value='0d220856-3b5c-4206-9228-2fca9cf4e43f']",
+      "targets": [
+        ["id=Q_ce67fd7d-e277-47f6-a944-ab822f5105c0_0", "id"],
+        ["name=Q_ce67fd7d-e277-47f6-a944-ab822f5105c0_0", "name"],
+        ["css=#Q_ce67fd7d-e277-47f6-a944-ab822f5105c0_0", "css:finder"],
+        ["xpath=//input[@id='Q_ce67fd7d-e277-47f6-a944-ab822f5105c0_0']", "xpath:attributes"],
+        ["xpath=//div[@id='C_ce67fd7d-e277-47f6-a944-ab822f5105c0_0']/div/div/fieldset/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7a9fcfd-749f-4d10-8d96-9249e53d0021",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9217b89a-b8a8-4c4d-941b-51020f94a70b",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "30e38a4c-70ad-4450-873a-0e6ae7a22cd5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["63dbea15-99f3-4dfa-930c-334a8de44390"]
+  }, {
+    "id": "dfdb63c4-1575-4350-ba7b-a811d954d46c",
+    "name": "Second Test Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["63dbea15-99f3-4dfa-930c-334a8de44390"]
+  }],
+  "urls": ["https://forms.guelph.ca/"],
+  "plugins": []
+}
