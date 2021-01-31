@@ -34,7 +34,7 @@ This example uses bike lanes, but similar steps can be used for sidewalks and bu
 
 1. Open Chrome and navigate to https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd 
 
-   ![SeleniumIDEHomePage](assets\images\SeleniumIDEHomePage_clickAddToChrome.png)
+   <img src="assets\images\SeleniumIDEHomePage_clickAddToChrome.png" alt="SeleniumIDEHomePage" style="zoom:50%;"/>
 
 2. Click Add to Chrome.  Review the permissions and accept to Add the extension to your browser.
 
