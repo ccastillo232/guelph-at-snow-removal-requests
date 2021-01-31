@@ -103,3 +103,11 @@ This example uses bike lanes, but similar steps can be used for sidewalks and bu
    <img src="assets\images\BikeLane_ScriptResults.png" alt="BikeLane_ScriptResults" style="zoom:50%;" />
 
 8. If everything looks good then you've got the script you need.  Now whenever your bike lanes are not cleared you can run the script then click the Submit buttons to submit your requests.
+
+
+
+
+
+## Contact
+
+ccastillo232@yahoo.ca
