@@ -30,7 +30,21 @@ I have only tested this on Chrome on a Windows 10.  As far as I know it Selenium
 
 This example uses bike lanes, but similar steps can be used for sidewalks and bus stops.
 
-### Install Selenium IDE:
+
+
+### Quick Guide:
+
+1. Install Selenium IDE extension in Chrome   [(details)](#install-selenium-ide)
+2. Download the desired Autofill Script from Github   [(details)](#download-the-autofill-script)
+   - https://github.com/ccastillo232/guelph-at-snow-removal-requests/tree/main/bike_lanes  (Note: After you select the script you will have to download the actual file using the "Raw" button )
+3. Open the script using Selenium IDE   [(details)](#modify-the-autofill-script)
+   - You can run it using the defaults.  To modify it for your own use you will want to edit sections 1a and 1b., then save it.
+
+
+
+### Detailed Guide
+
+#### Install Selenium IDE
 
 1. Open Chrome and navigate to https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd 
 
@@ -48,7 +62,7 @@ This example uses bike lanes, but similar steps can be used for sidewalks and bu
 
 
 
-### Download the Autofill Script
+#### Download the Autofill Script
 
 1. Navigate to https://github.com/ccastillo232/guelph-at-snow-removal-requests/tree/main/bike_lanes 
 
@@ -64,7 +78,7 @@ This example uses bike lanes, but similar steps can be used for sidewalks and bu
 
    <img src="assets\images\GitHub_BikeLane_FilePreview_RawButton_SaveAs.png" alt="GitHub_BikeLane_FilePreview_RawButton_SaveAs" style="zoom:50%;" />
 
-## Modify the Autofill Script
+#### Modify the Autofill Script
 
 1. In Chrome, navigate to the snow removal request form.  You will want to use this as a reference as you modify the Autofill Script for yourself. https://forms.guelph.ca/Operations/Snow-removal-roads  
 
